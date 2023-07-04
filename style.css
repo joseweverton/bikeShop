@@ -4,6 +4,12 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 .header-bg {
     background-color: #000000;
 }
@@ -77,4 +83,33 @@
     .header-menu a {
         padding: 0.5rem 0.75rem;
     }
+}
+
+.introduction-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.introduction {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0rem 2.5rem; /*cima/baixo 0 lados 40px*/
+}
+
+.introduction h1 {
+    margin-bottom: 2rem;
+    font-size: 4rem;
+    line-height: 1.125;
+}
+
+.introduction p {
+    margin-bottom: 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #B2B2B2;
+}
+
+.introduction-content {
+    align-self: end;
+    padding-bottom: 5rem;
 }
