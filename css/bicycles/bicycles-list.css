@@ -1,0 +1,50 @@
+.bicycles-list {
+    padding-top: 3.75rem;
+    padding-bottom: 7.5rem;    
+}
+
+.bicycles-list h2 {
+    margin-bottom: 2.5rem;
+    max-width: 75rem; /*1200px*/
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bicycles-list ul {
+    display: flex;
+    gap: 2.5rem;
+    padding: 0 1.25rem;
+    max-width: 87.5rem; /*1400px*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bicycles-list a {
+    display: block;
+}
+
+.bicycles-list img {
+    margin-bottom: 1rem;
+}
+
+.bicycles-list h3 {
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center; /*alinhar decorador ai centro precisa definir align-items*/
+  
+}
+
+.bicycles-list h3::before {
+    content: "";
+    display: inline-block;
+    width: 0.75rem;
+    height: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: var(--color-p1);
+}
+
+.bicycles-list li span {
+    padding-left: 1.25rem; /*soma width + margin-right do before*/
+}

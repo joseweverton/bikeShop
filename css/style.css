@@ -8,4 +8,7 @@
 @import "./utilitary/components.css";
 
 /*Home*/
-@import "./home/introduction.css"
+@import "./home/introduction.css";
+
+/*Bicycles*/
+@import "./bicycles/bicycles-list.css"
