@@ -1,0 +1,76 @@
+.header-bg {
+    background-color: #000000;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem;
+    max-width: 75rem;
+    margin: 0 auto;
+}
+
+.header-menu {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+    
+}
+
+.header-menu a {
+    text-decoration: none;
+    padding: 1rem 0;
+    display: inline-block;/*quando quebrar vai respeitar o padding*/
+    font-size: 1.125rem;
+    color: #ffffff;
+    position: relative;
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.header-menu a:after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0px;
+    background-color: #ffffff;
+    margin-top: 4px;
+    transition: 0.3s;
+    position: absolute;
+}
+
+.header-menu a:hover:after {
+    width: 100%;
+} 
+
+@media (max-width: 800px) {
+    .header-menu {
+        gap: 1.25rem;
+    }
+       
+    .header-menu a {
+        background: #111111;
+        padding: 0.75rem 1rem;
+        border-radius: 4px;
+    }
+
+    .header-menu a:after {
+        display: none;
+    } 
+    .header-menu a:hover {
+        background-color: #2E2E2E;
+    }
+}
+
+@media (max-width: 600px) {
+    .header-menu {
+        gap: 0.75rem;
+    }
+    .header-menu a {
+        padding: 0.5rem 0.75rem;
+    }
+}
