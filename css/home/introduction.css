@@ -1,7 +1,6 @@
 .introduction-bg {
-    background-color: #000000;
-    color: #ffffff;
-    box-shadow: inset 0 -7.5rem #FFFFFF;
+    background-color: var(--color-12);
+    box-shadow: inset 0 -7.5rem var(--color-0);
 }
 
 .introduction {
@@ -18,23 +17,10 @@
 
 .introduction h1 {
     margin-bottom: 2rem;
-    font-size: 4rem;
-    line-height: 1.125;
-    font-family: 'Poppins';
-    font-weight: 600;
 }
 
 .introduction p {
     margin-bottom: 1.25rem;
-    font-size: 1.5rem;
-    line-height: 1.5;
-    color: #B2B2B2;
-    font-family: 'Roboto';
-    font-weight: 400;
-}
-
-.introduction span {
-    color: #FFBB00;
 }
 
 .introduction img {
@@ -49,19 +35,10 @@
 }
 
 
-@media (max-width: 1200px) {
-    .introduction h1 {
-        font-size: 3rem;
-    }
-    .introduction p {
-        font-size: 1.125rem;
-    }
-}
-
 @media (max-width: 800px) {
     
     .introduction-bg {
-        background: #111111;
+        background: var(--color-11);
         padding-top: 1.5rem;
         box-shadow: inset 0 -3.75rem #FFFFFF;
     }
@@ -71,7 +48,6 @@
         gap: 2rem;
     }
     .introduction h1 {
-        font-size: 2rem;
         margin-bottom: 1rem;
     }
 

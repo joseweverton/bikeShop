@@ -1,4 +1,7 @@
 @import "./global/global.css";
+@import "./utilitary/typography.css";
+@import "./utilitary/colors.css";
+
 @import "./global/header.css";
 
 /*Components */
