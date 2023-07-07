@@ -1,0 +1,36 @@
+.partners {
+    padding-top: 3.75rem;
+    padding-bottom: 7.5rem;
+}
+
+.partners h2 {
+    margin-bottom: 5rem;
+}
+
+.partners ul {
+    padding: 0 1.25rem;
+    max-width: 87.5rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.partners li {
+    display: flex;
+    padding: 2rem;
+    border-left: 2px solid var(--color-2);
+}
+
+.partners li:first-child, /*primeiro elemento da li*/
+ .partners li:nth-child(5){ /*quinto elemento da li*/
+    border-left: none;
+}
+.partners li:nth-child(n+5){ /*a partir do quinto elemento da li*/
+    border-top: 2px solid var(--color-2);
+}
+
+.partners img {
+    margin: auto; /*alinhar ao centro a img - precisa esta com a li como display flex*/
+}
+
+
