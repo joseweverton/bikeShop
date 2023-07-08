@@ -33,4 +33,30 @@
     margin: auto; /*alinhar ao centro a img - precisa esta com a li como display flex*/
 }
 
+@media (max-width: 800px) {
+    .partners {
+        padding-bottom: 3.75rem;        
+    }
+    .partners h2 {
+        margin-bottom: 1.25rem;
+    }
+    .partners ul {
+        grid-template-columns: repeat(2, 1fr);
+    }
+     .partners li:nth-child(n+3){ /*a partir do quinto elemento da li*/
+        border-top: 2px solid var(--color-2);
+    }
+    
+    /*
+    Uma opção de tirar a border left dos elementos 3 e 7 devido estar distribuido em display grid em duas colunas: 
+    .partners li:nth-child(3),
+    .partners li:nth-child(7){ 
+        border-left: none;
+    }
+    */
 
+    /*Remov border left dos elementos impares*/
+   .partners li:nth-child(odd) {
+    border-left: none;
+   } 
+}
