@@ -1,0 +1,74 @@
+.bicycles-bg {
+    background: var(--color-11);
+}
+
+.bicycles {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+}
+
+.bicycles-image {
+    display: grid;
+}
+
+.bicycles-image img {
+    grid-area: 1/1;
+}
+
+.bicycles-image span{
+    grid-area: 1/1;
+    place-self: start end;
+    margin-top: 1.25rem;
+    background: var(--color-12);
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    display: inline-block;
+    border-radius: 4px 0 0 4px;
+}
+
+.bicycles-content {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.bicycles-content h2,
+.bicycles-content p {
+    grid-column: 1/-1;
+}
+
+.bicycles-content h2 {
+    margin-bottom: 1.25rem;
+}
+
+.bicycles-content h2::before {
+    content: "";
+    display: block;
+    width: 0.75rem;
+    height: 0.5rem;
+    background-color: var(--color-p1);
+    margin-bottom: 0.5rem;
+}
+
+.bicycles-content p {
+    margin-bottom: 2rem;
+}
+
+.bicycles-content a {
+    place-self: end;
+}
+
+.bicycles-content li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bicycles-content li + li {
+    margin-top: 1rem;
+}
+
+.bicycles-content img {
+    width: 1.5rem;
+}
