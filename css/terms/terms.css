@@ -1,0 +1,18 @@
+.terms {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.terms h2 {
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.terms p + h2 { /*adiciona margem nos h2 que vem depois do p*/
+    margin-top: 2.5rem;
+}
+
+.terms p {
+    margin-bottom: 1.5rem;
+    max-width: 75ch;
+}

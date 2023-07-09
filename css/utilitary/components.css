@@ -59,3 +59,25 @@
     color: var(--color-0)
 }
 
+/*Titulos internos*/
+.title-bg {
+    padding-top: 3.75rem;
+    padding-bottom: 3.75rem;
+    background-color: var(--color-11);
+}
+
+.title p {
+    margin-bottom: 4px;
+} 
+
+@media (max-width:800px) {
+    .title-bg {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .title p {
+        font-size: 1rem;
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+}

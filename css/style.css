@@ -14,8 +14,11 @@
 @import  "./home/partners.css";
 @import "./home/testimony.css";
 
+/*Bicycles*/
+@import "./bicycles/bicycles-list.css";
+
 /*insurance */
 @import "./insurance/insurance.css";
 
-/*Bicycles*/
-@import "./bicycles/bicycles-list.css"
+/*Terms*/
+@import "./terms/terms.css";
