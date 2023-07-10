@@ -1,5 +1,5 @@
 .bicycles-bg {
-    background: var(--color-11);
+    background: linear-gradient(to right, var(--color-0) 30%, var(--color-11) 0%);
 }
 
 .bicycles {
@@ -31,6 +31,7 @@
 .bicycles-content {
     display: grid;
     grid-template-columns: 1fr auto;
+    align-content: start;
 }
 
 .bicycles-content h2,
@@ -71,4 +72,33 @@
 
 .bicycles-content img {
     width: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .bicycles-bg {
+        background: var(--color-11);
+    }
+    .bicycles {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .bicycles-content {
+        grid-template-columns: 1fr;
+    }
+    .bicycles-content ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 2rem;
+        font-size: 1rem;
+    }
+
+    .bicycles-content a {
+        place-self: start;
+    }
+
 }

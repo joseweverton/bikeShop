@@ -33,6 +33,23 @@
     background: var(--color-9);
 }
 
+.button.arrow {
+    display: flex;
+    align-items: center;
+}
+.button.arrow::after {
+    content: "";
+    display: inline-block;
+    width: 1.125rem;
+    height: 0.625rem;
+    margin-left: 0.75rem;
+    background: url("../../img/icones/seta.svg");
+    transition: transform 0.2s;
+}
+
+.button.arrow:hover::after {
+    transform: translateX(4px);
+}
 @media (max-width: 600px) {
     .button {
     padding: 0.75rem 1rem;
