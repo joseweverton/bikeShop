@@ -1,0 +1,46 @@
+.insuranceInternal-bg {
+    background-color: var(--color-11);
+    box-shadow: inset 0rem 7.5rem var(--color-0), inset 0rem -7.5rem var(--color-12);
+}
+
+.insuranceInternal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+}
+
+.insuranceInternal-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.insuranceInternal-content {
+    padding-top: 11.25rem;
+    padding-bottom: 11.25rem;
+}
+
+.insuranceInternal h2 {
+    margin-bottom: 2rem;
+}
+
+.insuranceInternal p {
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width:800px) {
+    .insuranceInternal-bg {
+        box-shadow: inset 0rem -3.75rem var(--color-12);
+    }
+    .insuranceInternal {
+        grid-template-columns: 1fr;
+    }
+    .insuranceInternal-image {
+        height: 12.5rem;
+    }
+    .insuranceInternal-content {
+        grid-row: 1;
+        padding-top: 2.5rem;
+        padding-bottom: 0rem;
+    }
+}
