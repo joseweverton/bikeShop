@@ -1,0 +1,62 @@
+#budgets {
+    background: linear-gradient(var(--color-11) 38rem, var(--color-1) 0);
+}
+
+.budget {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 7.5rem;
+}
+
+.budget h2 {
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.budget h2::before {
+    content: "";
+    display: inline-block;
+    width: 0.25rem;
+    height: 0.5rem;
+    background-color: var(--color-p1);
+    position: absolute;
+    left: -0.75rem;
+}
+
+.budget-product,
+.budget-data {
+    padding: 3.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.budget-product {
+    border-radius: 5px 0 0 5px;
+    background: var(--color-12);
+}
+
+.budget-data {
+    border-radius:0 5px 5px 0;
+    background: var(--color-0);
+}
+
+.budget-product label {
+    background: #ccc;
+    padding: 1.25rem;
+    display: inline-block;
+}
+
+.budget-content {
+    padding: 1.25rem;
+    background: #222;
+    margin: 20px;
+    display: none;
+}
+
+#bikcraft:checked ~ #budget-bikcraft,
+#insurance:checked ~ #budget-insurance {
+    display: block;
+}
+
+

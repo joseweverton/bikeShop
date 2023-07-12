@@ -28,9 +28,13 @@
 @import "./insurance/advantages.css";
 @import "./insurance/questions.css";
 
+/*contact*/
 @import "./contact/contact.css";
 @import "./contact/stores.css";
 @import "./utilitary/forms.css";
+
+/*budgets*/
+@import "./budgets/budgets.css";
 
 /*Terms*/
 @import "./terms/terms.css";
