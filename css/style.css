@@ -18,8 +18,10 @@
 @import "./bicycles/bicycles-list.css";
 @import "./bicycles/bicycles.css";
 
+
 /*Bicycle*/
 @import "./bicycle/bicycle.css";
+@import "./bicycle/insuranceInternal.css";
 
 /*insurance */
 @import "./insurance/insurance.css";
