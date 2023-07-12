@@ -17,6 +17,8 @@
     color: var(--color-p5);
     font: 600 1.125rem/1.35 "Poppins", sans-serif;
     max-width: max-content;/*vai possui o tamanho maximo dele mesmo, permitindo que não cresca mais que o seu tamanho*/
+    border: none;
+    cursor: pointer;
 }
 
 .button:hover{
