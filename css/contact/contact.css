@@ -1,0 +1,95 @@
+#contact {
+    background: var(--color-1);
+    background: linear-gradient(var(--color-11) 38rem, var(--color-1) 0);
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 5fr 7fr;
+}
+
+.contact-data,
+.contact-form {
+    padding: 3.75rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.contact-data {
+    border-radius: 5px 0 0 5px;
+    background: var(--color-12);
+}
+
+.contact-form {
+    border-radius: 0 5px 5px 0;
+    background: var(--color-0) ;
+}
+
+.contact-data h2 {
+    margin-bottom: 3.75rem;
+
+}
+
+.contact-address {
+    margin-bottom: 2rem;
+    padding-left: 1.75rem;
+    background: url("../../img/icones/local.svg") no-repeat 0 2px;
+}
+
+.contact-address p {
+    margin-bottom: 0.5rem;
+}
+
+.contact-electronic a {
+display: block;
+max-width: max-content;
+margin-bottom: 0.5rem;
+padding-left: 1.75rem;
+}
+
+.contact-electronic a:hover {
+    color: var(--color-0);
+}
+
+.contact-electronic a:first-child {
+    background: url("../../img/icones/email.svg") no-repeat 0 2px;
+}
+
+.contact-electronic a:nth-child(2) {
+    margin-bottom: 2rem;
+}
+
+.contact-electronic a:nth-child(3) {
+    background: url("../../img/icones/telefone.svg") no-repeat 0px 2px;
+    margin-bottom: 3.75rem;
+}
+
+.contact-redes {
+    display: flex;
+    gap: 2rem;
+    padding: 1.75rem;
+}
+
+@media (max-width: 800px) {
+    .contact {
+        grid-template-columns: 1fr;
+    }
+    .contact-data,
+    .contact-form {
+        padding: 1.25rem;
+    }
+    .contact-data {
+        border-radius: 5px 5px 0 0;
+    }
+    .contact-form {
+        border-radius: 0 0 5px 5px;
+    }
+    .contact-data h2,
+    .contact-electronic a:nth-child(3) {
+        margin-bottom: 2rem;
+    }
+    .contact-redes {
+        margin-bottom: 0.75rem;
+        
+    }
+
+}
