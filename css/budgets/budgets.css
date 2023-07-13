@@ -52,10 +52,13 @@
     font: 400 1rem/1.5 "Poppins", sans-serif;
     color: var(--color-4);
     background-color: var(--color-10);
-    display: block;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
     padding: 0.75rem 1rem;
     border-radius: 4px;
     cursor: pointer;
+    border: 1px solid var(--color-10);
 }
 
 .budget-product input:checked + label {
@@ -79,6 +82,33 @@
     box-shadow: inset 0 0 0 3px var(--color-0), inset 0 0 0 6px var(--color-7);
 }
 
+
+.budget-product label:hover {
+    background-color: var(--color-9);
+    border-color: var(--color-9);
+}
+
+.budget-product input:focus + label {
+    box-shadow: 0 0 0 2px var(--color-p1);
+    border-color: var(--color-12);
+}
+
+.budget-product label span {
+    display: none;
+}
+
+.budget-product input:checked + label span {
+    display: inline-block;
+}
+
+.budget-content {
+    display: none;
+}
+
+.budget-content h2,
+.budget-data h2:nth-of-type(n + 2) {
+    margin-top: 1.25rem;
+}
 .budget-product input {
     opacity: 0;
     position: absolute;
@@ -94,7 +124,56 @@
 
 #bikcraft:checked ~ #budget-bikcraft,
 #insurance:checked ~ #budget-insurance {
-    display: block;
+    display: grid;
+    gap: 1.25rem;
 }
 
+.budget-details {
+    display: none;
+    background: var(--color-0);
+    padding: 1.25rem;
+    
+    grid-template-columns: 1fr 1fr;
+    border-radius: 4px;
+    align-items: center;
+}
 
+.budget-details li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.budget-details li img {
+    width: 1rem;
+    margin-right: 0.5rem;
+}
+
+.budget-product input:checked + label + .budget-details {
+    display: grid;
+}
+
+@media (max-width: 1200px) {
+    .budget-product,
+    .budget-data {
+        padding: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .budget {
+        grid-template-columns: 1fr;
+    }
+    .budget-product {
+        border-radius: 5px 5px 0 0;
+    }
+    .budget-data {
+        border-radius: 0 0 5px 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .budget-product {
+        grid-template-columns: 1fr;
+    }
+}
