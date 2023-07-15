@@ -17,6 +17,7 @@
     display: flex;
     align-self: end;
     padding: 2.5rem 2.5rem 5rem 5rem;
+    background: url('../../img/dec/bottom-right-p.svg') no-repeat bottom 2.5rem right 2.5rem;
 }
 
 .testimony p {
@@ -43,6 +44,12 @@
 
 .testimony p::after {
     content: '”';   
+}
+
+@media (min-width: 1200px) {
+    .testimony img {
+        margin-right: 32.5rem;
+    }
 }
 
 @media (max-width: 800px) {

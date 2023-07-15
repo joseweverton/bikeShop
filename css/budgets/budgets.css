@@ -33,11 +33,12 @@
 
 .budget-product {
     border-radius: 5px 0 0 5px;
-    background: var(--color-12);
+    background: var(--color-12) url("../../img/dec/bottom-left.svg") no-repeat bottom 1.25rem left 1.25rem;;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.25rem;
     align-content: start;
+
 }
 
 .budget-product > * {
@@ -115,11 +116,9 @@
     pointer-events: none;
 }
 
-
-
 .budget-data {
     border-radius:0 5px 5px 0;
-    background: var(--color-0);
+    background: var(--color-0) url("../../img/dec/bottom-right.svg") no-repeat bottom 1.25rem right 1.25rem;;
 }
 
 #bikcraft:checked ~ #budget-bikcraft,
@@ -166,6 +165,7 @@
     }
     .budget-product {
         border-radius: 5px 5px 0 0;
+        background: var(--color-12);
     }
     .budget-data {
         border-radius: 0 0 5px 5px;
@@ -175,5 +175,8 @@
 @media (max-width: 400px) {
     .budget-product {
         grid-template-columns: 1fr;
+    }
+    .budget-data {
+        background: var(--color-0);
     }
 }
