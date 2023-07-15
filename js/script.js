@@ -20,5 +20,25 @@ function activeProduct(parameter) {
     element.checked = true
     }
 }
-
 parameters.forEach(activeProduct)
+
+//Frequently Asked Questions
+const questions = document.querySelectorAll(".questions button")
+
+function activeQuestion(event) {
+    const question = event.currentTarget
+    const controls = question.getAttribute("aria-controls")
+    const answer = document.getElementById(controls)
+    
+    answer.classList.toggle("active")
+    const active = answer.classList.contains("active")
+    question.setAttribute("aria-expanded", active)
+    
+}
+
+function eventQuestions(ask) {
+    ask.addEventListener("click", activeQuestion)
+}
+
+questions.forEach(eventQuestions)
+
