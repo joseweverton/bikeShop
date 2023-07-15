@@ -1,12 +1,14 @@
 # bikeShop
 
-<p>Este projeto é um site completo para uma loja de bicicletas e foi desenvolvido como parte de um projeto acadêmico. Ao longo do desenvolvimento, foram aplicados conhecimentos e habilidades adquiridos durante o curso.</p>
+<p>Este projeto é um site completo para uma loja de bicicletas titulado originalmente como Bikcrafit, desenvolvido como parte de um projeto acadêmico pela instituição Origamid. Ao longo do desenvolvimento, foram aplicados conhecimentos e habilidades adquiridos durante o curso.</p>
 
-<p>O site foi inicialmente projetado no Figma, utilizando as melhores práticas de UI para cores, espaçamentos e tipografia. Em seguida, foram utilizadas tecnologias web, como HTML, CSS e JavaScript, para transformar o design em código funcional.</p>
+<p>O site foi inicialmente projetado no Figma, utilizando as melhores práticas de UI para cores, espaçamentos e tipografia. Em seguida, foram utilizadas tecnologias web, como HTML, CSS e JavaScript, para transformar o design em código funcional. Editor de texto VS Code.</p>
 
 <p>Durante o processo de desenvolvimento, foram aplicadas técnicas avançadas, como animações com JavaScript, layouts responsivos utilizando flexbox e grid, e criação de imagens dimensionais com efeitos de box-shadow.</p>
 
 <p>Este projeto acadêmico proporcionou a oportunidade de colocar em prática os conhecimentos adquiridos, bem como desenvolver habilidades essenciais para a criação de um site profissional e eficiente.</p>
+
+<p>Acesse: https://joseweverton.github.io/bikeShop/</p>
 
 <h2>Tecnologias Utilizadas</h2>
 
@@ -40,6 +42,8 @@
 
 <h2>Direitos Autorais</h2>
 
-<p>Todos os direitos reservados à instituição responsável pelo curso. Origamid.</p>
+<p>Todos os direitos reservados à Origamid, instituição responsável pelo curso e ao seu sócio proprietário Sr. André, excelente professor e profissional da área.</p>
+
+
 
 
