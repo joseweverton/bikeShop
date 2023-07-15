@@ -10,18 +10,13 @@
     align-items: center;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
-
-
- 
-    
 }
 
 .header-menu {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.25rem;
-    
+    gap: 1.25rem;    
 }
 
 .header-menu a {
@@ -43,9 +38,12 @@
     position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after,
+.header-menu a.active::after {
     width: 100%;
 } 
+
+
 
 @media (max-width: 800px) {
     .header-menu {
