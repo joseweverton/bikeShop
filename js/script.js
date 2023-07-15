@@ -42,3 +42,23 @@ function eventQuestions(ask) {
 
 questions.forEach(eventQuestions)
 
+
+
+//Bicycle Galery
+const galery = document.querySelectorAll(".bicycle-images img")
+const galeryContainer = document.querySelector(".bicycle-images")
+
+function replaceImage(event) {
+    const img = event.currentTarget
+    const media = matchMedia("(min-width: 1000px)").matches
+    if (media) {
+    galeryContainer.prepend(img)
+    }
+}
+
+function eventGalery(img) {
+    img.addEventListener("click", replaceImage)
+
+}
+
+galery.forEach(eventGalery)
