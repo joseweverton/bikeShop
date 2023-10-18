@@ -44,6 +44,16 @@
   <li>Adição de interatividade e animações dinâmicas com JavaScript.</li>
 </ul>
 
+<h2>🎨 Projeto no Figma</h2>
+
+<ul>
+ <li>Foram criados protótipos e layouts detalhados, permitindo uma visualização clara e abrangente da estrutura e do design do site.</li>
+ <li>O projeto no Figma serviu como base para a implementação do design no código, garantindo consistência visual e estética ao longo do desenvolvimento.</li>
+</ul>
+
+![image](https://github.com/joseweverton/bikeShop/assets/125286733/af97ce4a-f1e3-4380-9758-24c3e4f955a1)
+
+
 
 
 
