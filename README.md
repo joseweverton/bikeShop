@@ -1,55 +1,53 @@
- <h1>🚲 bikeShop</h1>
+# 🚲 bikeShop
 
-<h2>ℹ️ Sobre o Projeto</h2>
+# ℹ️ Sobre o Projeto
 
-<ul>
-  <li>Este projeto é um site completo para uma loja de bicicletas.</li>
-  <li>Foi desenvolvido como parte de um projeto acadêmico pela instituição Origamid.</li>
-  <li>O site foi inicialmente projetado no Figma, utilizando as melhores práticas de UI para cores, espaçamentos e tipografia.</li>
-  <li>Ao longo do desenvolvimento, foram aplicados conhecimentos e habilidades adquiridos durante o curso.</li>
-  <li>Editor de texto utilizado: VS Code.</li>
-  <li>🔗 Acesse o Projeto Finalizado: https://joseweverton.github.io/bikeShop/</li>
-</ul>
+Este projeto é um site completo para uma loja de bicicletas.
+O site foi inicialmente projetado no Figma, utilizando as melhores práticas de UI para cores, espaçamentos e tipografia.
+
+
+🔗 Acesse o Projeto Finalizado: https://joseweverton.github.io/bikeShop
 
 <h2>🛠️ Tecnologias Utilizadas</h2>
 
-<ul>
-  <li>HTML5</li>
-  <li>CSS3</li>
-  <li>JavaScript</li>
-</ul>
+- HTML5
+- CSS3
+- JavaScript
 
-<h2>🌟 Recursos</h2>
 
-<ul>
-  <li>Design responsivo e visualmente atraente.</li>
-  <li>Animações utilizando JavaScript.</li>
-  <li>Uso de layout flexbox e grid para estrutura de páginas.</li>
-  <li>Imagens dimensionais com efeitos de box-shadow.</li>
-</ul>
+## 🌟 Recursos
 
-<h2>🛠🚀 Uso</h2>
 
-<ul>
-  <li>Navegue pelas diferentes seções do site, como listagens de produtos, detalhes dos produtos e informações de contato.</li>
-  <li>Interaja com vários elementos que possuem animações aplicadas.</li>
-  <li>Experimente o design responsivo em diferentes tamanhos de tela.</li>
-</ul>
+- Design responsivo e visualmente atraente.
+- Animações utilizando JavaScript.
+- Uso de layout flexbox e grid para estrutura de páginas.
+- Imagens dimensionais com efeitos de box-shadow.
 
-<h2>📚 Habilidades Adquiridas</h2>
 
-<ul>
-  <li>Estruturação e organização do conteúdo do site de forma semântica usando HTML.</li>
-  <li>Aplicação de estilos e criação de layouts responsivos com CSS.</li>
-  <li>Adição de interatividade e animações dinâmicas com JavaScript.</li>
-</ul>
+## 🛠🚀 Uso
 
-<h2>🎨 Projeto no Figma</h2>
+Navegue pelas diferentes seções do site, como listagens de produtos, detalhes dos produtos e informações de contato.
 
-<ul>
- <li>Foram criados protótipos e layouts detalhados, permitindo uma visualização clara e abrangente da estrutura e do design do site.</li>
- <li>O projeto no Figma serviu como base para a implementação do design no código, garantindo consistência visual e estética ao longo do desenvolvimento.</li>
-</ul>
+Interaja com vários elementos que possuem animações aplicadas.
+
+Experimente o design responsivo em diferentes tamanhos de tela.
+
+
+## 📚 Habilidades Adquiridas
+
+
+- Estruturação e organização do conteúdo do site de forma semântica usando HTML.
+- Aplicação de estilos e criação de layouts responsivos com CSS.
+- Adição de interatividade e animações dinâmicas com JavaScript.
+
+## 🎨 Projeto no Figma
+
+Foram criados protótipos e layouts detalhados, permitindo uma visualização clara e abrangente da estrutura e do design do site.
+
+O projeto no Figma serviu como base para a implementação do design no código, garantindo consistência visual e estética ao longo do desenvolvimento. 
+
+Aplicação desenvolvido como parte de um projeto acadêmico oferecido pela instituição Origamid.
+
 
 ![image](https://github.com/joseweverton/bikeShop/assets/125286733/af97ce4a-f1e3-4380-9758-24c3e4f955a1)
 
